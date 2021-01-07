@@ -132,15 +132,6 @@ function editLocalStorage(id, value) {
 function getLocalStorage() {
     return localStorage.getItem("list")?JSON.parse(localStorage.getItem("list")):[];
 }
-// localStorage API
-// setItem
-// getItem
-// removeItem
-// save as strings
-// localStorage.setItem("orange", JSON.stringify(["item", "milk"]));
-// const oranges = JSON.parse(localStorage.getItem("orange"));
-// console.log(oranges);
-// localStorage.removeItem("orange");
 // **** SETUP ITEMS ****
 function setupItems() {
     let items = getLocalStorage();
